@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b6b916e-b9df-4578-b42e-b7b825701914" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP_359211110011/.idea/vcs.xml" />
+    <list default="true" id="4b6b916e-b9df-4578-b42e-b7b825701914" name="Default" comment="Add informaion">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OOP_359211110011/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../OOP_359211110011/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OOP_359211110011/src/oop_lab/s359211110011/rmutsv/com/HelloWorld.java" afterPath="$PROJECT_DIR$/../OOP_359211110011/src/oop_lab/s359211110011/rmutsv/com/HelloWorld.java" />
     </list>
@@ -20,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/../OOP_359211110011/src/oop_lab/s359211110011/rmutsv/com/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -232,6 +231,14 @@
       <option name="presentableId" value="Default" />
       <updated>1511076038367</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add informaion">
+      <created>1511079515875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511079515875</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,6 +276,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add informaion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add informaion" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -277,7 +288,7 @@
     <entry file="file://$PROJECT_DIR$/../OOP_359211110011/src/oop_lab/s359211110011/rmutsv/com/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding />
         </state>
       </provider>
