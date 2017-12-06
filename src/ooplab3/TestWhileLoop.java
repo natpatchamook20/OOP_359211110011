@@ -10,6 +10,7 @@ public class TestWhileLoop {
 
 
         int n = 1;
+
         while (n<=10){
             System.out.print(n+" ") ;
             n++;
@@ -19,12 +20,19 @@ public class TestWhileLoop {
         int pin = 1234;
         Scanner scanner=new Scanner(System.in);
         int input = 0;
+        int count =0;
         while (input !=pin){
             System.out.print("Enter your password: ");
             input = scanner.nextInt();
-
+            count++;
+            if (input ==pin){
+                System.out.print("Enter your is correctect. ");
+            }
+            if (count ==3){
+                System.out.print("System error.");break;
+            }
         }
-        System.out.print("Enter your is correctect. ");
+
 
     }
 
