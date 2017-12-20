@@ -25,7 +25,11 @@ public class SortingArray {
 
     private static void sortingDataDesending(int[] number) {
         System.out.println("Desending roder: ");
-        Integer[] num = {1,8,6,3};
+        Integer[] num = new Integer[number.length];
+        int i =0;
+        for(int val:number){
+            num[i++] = val;
+        }
         Arrays.sort(num, Collections.reverseOrder());
         showData(number,number.length);
     }//sortingDataDesending
@@ -49,7 +53,7 @@ public class SortingArray {
         }//findMaxData
 
     private static void showData(int[] number, int length) {
-        System.out.println("Data in array: ");
+        System.out.println("Data in input: ");
         for (int i=0;i<length;i++){
             System.out.print(number[i]+" ");
         }
