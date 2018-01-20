@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b6b916e-b9df-4578-b42e-b7b825701914" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/midterm/Year.java" />
+    <list default="true" id="4b6b916e-b9df-4578-b42e-b7b825701914" name="Default" comment="MidtermVat3.2">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/midterm/total.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Year.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Year.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/midterm/Year.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
+            <state relative-caret-position="-204">
               <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="total.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/midterm/total.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -71,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/ooplab6/MyStringBuffer.java" />
         <option value="$PROJECT_DIR$/src/ooplab6/myStringToken.java" />
         <option value="$PROJECT_DIR$/src/midterm/Year.java" />
+        <option value="$PROJECT_DIR$/src/midterm/total.java" />
       </list>
     </option>
   </component>
@@ -182,32 +193,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Year">
+  <component name="RunManager" selected="Application.total">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ooplab5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ooplab5.Exercise" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="OOP_359211110011" />
-      <envs />
     </configuration>
     <configuration name="MyStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -299,6 +291,25 @@
       <module name="OOP_359211110011" />
       <envs />
     </configuration>
+    <configuration name="total" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="midterm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="midterm.total" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OOP_359211110011" />
+      <envs />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -360,19 +371,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Exercise" />
-      <item index="1" class="java.lang.String" itemvalue="Application.myString" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyStringBuffer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.myStringToken" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Year" />
+      <item index="0" class="java.lang.String" itemvalue="Application.myString" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyStringBuffer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.myStringToken" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Year" />
+      <item index="4" class="java.lang.String" itemvalue="Application.total" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Year" />
-        <item index="1" class="java.lang.String" itemvalue="Application.myStringToken" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyStringBuffer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.myString" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Exercise" />
+        <item index="0" class="java.lang.String" itemvalue="Application.total" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Year" />
+        <item index="2" class="java.lang.String" itemvalue="Application.myStringToken" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyStringBuffer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.myString" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +400,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511076038367</updated>
-      <workItem from="1516467455134" duration="326000" />
+      <workItem from="1516467455134" duration="7703000" />
     </task>
     <task id="LOCAL-00001" summary="Add informaion">
       <created>1511079515875</created>
@@ -524,18 +535,25 @@
       <option name="project" value="LOCAL" />
       <updated>1513744354934</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MidtermYear3.1">
+      <created>1516467842770</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516467842770</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326000" />
+    <option name="totallyTimeSpent" value="7703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1346" height="688" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -588,7 +606,9 @@
     <MESSAGE value="Exercise" />
     <MESSAGE value="MyString" />
     <MESSAGE value="MyStringBuffer" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyStringBuffer" />
+    <MESSAGE value="MidtermYear3.1" />
+    <MESSAGE value="MidtermVat3.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="MidtermVat3.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -892,8 +912,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/midterm/Year.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
+        <state relative-caret-position="-204">
           <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/midterm/total.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
           <folding />
         </state>
       </provider>
