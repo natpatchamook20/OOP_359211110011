@@ -1,5 +1,7 @@
 package ooplab7;
 
+import java.util.Scanner;
+
 public class StudentAdd {
     public static void main(String[] args) {
         //create object as Student
@@ -13,12 +15,37 @@ public class StudentAdd {
         System.out.println(s1.getName());
         System.out.println(s1.getGender());
 
-       System.out.println(s1.toString ());
+        System.out.println(s1.toString());
 
-       Student s2 = new Student("002","Girl Saiyai","11/11 T.Tawang A.Muang","Female");
-       System.out.println(s2.toString());
+        Student s2 = new Student("002", "Girl Saiyai", "11/11 T.Tawang A.Muang", "Female");
+        System.out.println(s2.toString());
 
-       s2.setName("Girl Shongkla");
+        s2.setName("Girl Shongkla");
+        System.out.println(s2.toString());
+
+        Student s3 = new Student();
+        s3 = inputData(s3);
+        System.out.println(s3.toString());
     }
+
+    private static Student inputData(Student s) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("please enter a student info: ");
+        System.out.print("Student ID: ");
+        s.setId(scanner.nextLine());
+
+
+        System.out.print("Name: ");
+        s.setName(scanner.nextLine());
+
+        System.out.print("Address: ");
+        s.setAddress(scanner.nextLine());
+
+        System.out.print("Gendar: ");
+        s.setGender(scanner.nextLine());
+
+        return s;
+    }//inputData
 
 }//class
