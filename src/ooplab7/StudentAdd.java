@@ -18,6 +18,7 @@ public class StudentAdd {
        Student s2 = new Student("002","Girl Saiyai","11/11 T.Tawang A.Muang","Female");
        System.out.println(s2.toString());
 
+       s2.setName("Girl Shongkla");
     }
 
 }//class
