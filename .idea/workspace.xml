@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b6b916e-b9df-4578-b42e-b7b825701914" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ooplab7/MySuperCar.java" afterPath="$PROJECT_DIR$/src/ooplab7/MySuperCar.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +86,8 @@
       <file leaf-file-name="MySuperCar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ooplab7/MySuperCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -651,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516767716838</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="MySuperCar1">
+      <created>1516767857391</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1516767857391</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -697,7 +705,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing Condition" />
     <MESSAGE value="testing Calgrabe1" />
     <MESSAGE value="testing Swtich" />
     <MESSAGE value="Testing WhileLoop" />
@@ -722,7 +729,8 @@
     <MESSAGE value="//Class and Object:StudentAdd class" />
     <MESSAGE value="SuperCar" />
     <MESSAGE value="MySuperCar" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySuperCar" />
+    <MESSAGE value="MySuperCar1" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySuperCar1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1106,8 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ooplab7/MySuperCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
           <folding />
         </state>
       </provider>
