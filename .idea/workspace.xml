@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b6b916e-b9df-4578-b42e-b7b825701914" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/Student.java" />
+    <list default="true" id="4b6b916e-b9df-4578-b42e-b7b825701914" name="Default" comment="Inheritance">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/EmployeeApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/PersonApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +33,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ooplab8/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="204">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="e#698#699#0" expanded="true" />
                 <element signature="e#725#726#0" expanded="true" />
@@ -55,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ooplab8/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="85">
+              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding>
                 <element signature="e#583#584#0" expanded="true" />
                 <element signature="e#608#609#0" expanded="true" />
@@ -70,6 +72,45 @@
                 <element signature="e#782#783#0" expanded="true" />
                 <element signature="e#820#821#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ooplab8/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ooplab8/EmployeeApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ooplab8/PersonApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,8 +166,11 @@
         <option value="$PROJECT_DIR$/src/ooplab7/StudentAdd.java" />
         <option value="$PROJECT_DIR$/src/ooplab7/SuperCar.java" />
         <option value="$PROJECT_DIR$/src/ooplab7/MySuperCar.java" />
-        <option value="$PROJECT_DIR$/src/ooplab8/Person.java" />
         <option value="$PROJECT_DIR$/src/ooplab8/Student.java" />
+        <option value="$PROJECT_DIR$/src/ooplab8/Person.java" />
+        <option value="$PROJECT_DIR$/src/ooplab8/PersonApp.java" />
+        <option value="$PROJECT_DIR$/src/ooplab8/Employee.java" />
+        <option value="$PROJECT_DIR$/src/ooplab8/EmployeeApp.java" />
       </list>
     </option>
   </component>
@@ -251,7 +295,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MySuperCar">
+  <component name="RunManager" selected="Application.PersonApp">
+    <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ooplab8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ooplab8.EmployeeApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OOP_359211110011" />
+      <envs />
+    </configuration>
     <configuration name="MySuperCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -271,14 +334,14 @@
       <module name="OOP_359211110011" />
       <envs />
     </configuration>
-    <configuration name="StudentAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ooplab7.*" />
+          <option name="PATTERN" value="ooplab8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ooplab7.StudentAdd" />
+      <option name="MAIN_CLASS_NAME" value="ooplab8.PersonApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -290,14 +353,14 @@
       <module name="OOP_359211110011" />
       <envs />
     </configuration>
-    <configuration name="Year" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="midterm.*" />
+          <option name="PATTERN" value="ooplab7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="midterm.Year" />
+      <option name="MAIN_CLASS_NAME" value="ooplab7.StudentAdd" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -390,25 +453,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="myStringToken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ooplab6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ooplab6.myStringToken" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="OOP_359211110011" />
-      <envs />
-    </configuration>
     <configuration name="total" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -429,19 +473,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.myStringToken" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Year" />
-      <item index="2" class="java.lang.String" itemvalue="Application.total" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StudentAdd" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MySuperCar" />
+      <item index="0" class="java.lang.String" itemvalue="Application.total" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StudentAdd" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MySuperCar" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PersonApp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.EmployeeApp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MySuperCar" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PersonApp" />
         <item index="1" class="java.lang.String" itemvalue="Application.StudentAdd" />
-        <item index="2" class="java.lang.String" itemvalue="Application.total" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Year" />
-        <item index="4" class="java.lang.String" itemvalue="Application.myStringToken" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EmployeeApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MySuperCar" />
+        <item index="4" class="java.lang.String" itemvalue="Application.total" />
       </list>
     </recent_temporary>
   </component>
@@ -656,7 +700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517364912158</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Inheritance Student">
+      <created>1517365894483</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1517365894483</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -668,12 +719,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16230367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31413612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31413612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -690,7 +742,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16230367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -702,7 +753,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing Swtich" />
     <MESSAGE value="Testing WhileLoop" />
     <MESSAGE value="Testing WhileLoop errpr3" />
     <MESSAGE value="Testing DoWhileLoop" />
@@ -727,35 +777,14 @@
     <MESSAGE value="MySuperCar" />
     <MESSAGE value="MySuperCar1" />
     <MESSAGE value="Inheritance Person" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance Person" />
+    <MESSAGE value="Inheritance Student" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance Student" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/midterm/Year.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/midterm/total.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ooplab6/myStringToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ooplab5/TestArraylist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1070,8 +1099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ooplab8/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="e#698#699#0" expanded="true" />
             <element signature="e#725#726#0" expanded="true" />
@@ -1095,8 +1124,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ooplab8/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding>
             <element signature="e#583#584#0" expanded="true" />
             <element signature="e#608#609#0" expanded="true" />
@@ -1106,6 +1135,39 @@
             <element signature="e#736#737#0" expanded="true" />
             <element signature="e#782#783#0" expanded="true" />
             <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ooplab8/PersonApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ooplab8/EmployeeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ooplab8/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
           </folding>
         </state>
       </provider>
