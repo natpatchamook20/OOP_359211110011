@@ -92,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmployeeApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ooplab8/EmployeeApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -102,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PersonApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ooplab8/PersonApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -718,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517369620009</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Inheritance EmployeeApp">
+      <created>1517369640099</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1517369640099</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -764,7 +771,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing WhileLoop errpr3" />
     <MESSAGE value="Testing DoWhileLoop" />
     <MESSAGE value="Testing Methods1" />
     <MESSAGE value="Testing OverLoadMethod" />
@@ -789,7 +795,8 @@
     <MESSAGE value="Inheritance Person" />
     <MESSAGE value="Inheritance Student" />
     <MESSAGE value="Inheritance Employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance Employee" />
+    <MESSAGE value="Inheritance EmployeeApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance EmployeeApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1150,14 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ooplab8/PersonApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ooplab8/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1179,6 +1178,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ooplab8/PersonApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
