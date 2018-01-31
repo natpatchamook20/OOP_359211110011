@@ -7,7 +7,7 @@ public class PetApp {
         System.out.println(dog.toString());
         dog.makeNoise();
 
-        Cat cat = new Cat("Giant",2,"persian");
+        Cat cat = new Cat("Male",2,"persian");
         System.out.println(cat.toString());
         cat.makeNoise();
 
