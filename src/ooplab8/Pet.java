@@ -1,6 +1,7 @@
 package ooplab8;
 
 public abstract class Pet {
+    String msg="Hello";
     private String name;
     private int age;
 
@@ -9,7 +10,7 @@ public abstract class Pet {
         this.age = age;
     }
     //Abstract Method
-    public abstract void makeNoise();
+    protected abstract void makeNoise();
 
     @Override
     public String toString() {
