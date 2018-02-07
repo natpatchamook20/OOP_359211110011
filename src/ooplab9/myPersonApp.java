@@ -4,19 +4,19 @@ public class myPersonApp {
 
     public static void main(String[] args) {
         Person person = new Person(
-                "1111111111111",
-                "Puriwat Lertkrai",
-                new Address("109 M.2",
+                "1900100111351",
+                "Natpatcha Phetrat",
+                new Address("34/7 M.5",
                         "Nakornsithammarat",
-                        "80110"),
-                new Job("Teacher",
-                        20000));
+                        "80140"),
+                new Job("manager",
+                        50000));
 
 
 
         System.out.println(person.toString());
 
-        person.getJob().setSalary(30000);
+        person.getJob().setSalary(50000);
 
         System.out.println(person.getJob());
 
